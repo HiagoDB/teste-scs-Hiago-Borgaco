@@ -1,0 +1,32 @@
+.cardsContainer{
+  display: flex;
+  justify-content: space-around;
+  padding-right: 140px;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 92px;
+  background: #EBEFF2;
+}
+
+.seta{
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+
+}
+.seta:hover{
+  transform: scale(1.4);
+}
+.pushArrow{
+  padding-top: 130px;
+}
+
+.carro3Style{
+
+  width: 240px;
+  height: 171px;
+  top: 20px;
+  left: 30px;
+  position: absolute;
+  z-index: 1;
+}

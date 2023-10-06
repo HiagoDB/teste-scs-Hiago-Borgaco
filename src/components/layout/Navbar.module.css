@@ -1,0 +1,49 @@
+.carroHeader{
+  z-index: 0;
+  width: 100%;
+  position: relative;
+}
+nav{
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.item{
+  list-style: none;
+
+}
+.item a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.item a:hover{
+  color: #9999;
+}
+
+.logo{
+  width: 65px;
+  height: 65px;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.list{
+  display: flex;
+  gap: 132px;
+}
+
+.listProfile{
+  display: flex;
+  gap: 56px;
+  padding-right: 60px;
+}
+
+
